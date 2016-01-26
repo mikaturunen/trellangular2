@@ -1,0 +1,22 @@
+{
+  "name": "proxy-service",
+  "version": "1.0.0",
+  "description": "Proxy service",
+  "main": "service/proxy.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mikaturunen/trellangular2.git"
+  },
+  "keywords": [
+    "proxy",
+    "service"
+  ],
+  "author": "Mika Turunen <mika.turunen@ymail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikaturunen/trellangular2/issues"
+  },
+  "homepage": "https://github.com/mikaturunen/trellangular2#readme"
+}
