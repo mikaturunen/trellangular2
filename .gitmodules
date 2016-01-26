@@ -1,0 +1,3 @@
+[submodule "angular2-components"]
+	path = angular2-components
+	url = https://github.com/mikaturunen/angular2-components
