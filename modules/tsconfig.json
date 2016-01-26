@@ -6,7 +6,7 @@
     "experimentalDecorators": true,
     "removeComments": true,
     "noImplicitAny": true,
-    "outDir": "./release"
+    "moduleResolution": "node"
   },
   "exclude": [
     "node_modules",
