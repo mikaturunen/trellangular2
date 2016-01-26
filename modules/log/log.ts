@@ -2,7 +2,7 @@
 
 export class Log {
     constructor() {
-        // TODO Create logger
+        // TODO Create logger instance on specific log output
     }
 
     info(message: string) {
