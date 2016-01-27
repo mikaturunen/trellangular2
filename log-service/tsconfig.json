@@ -5,8 +5,7 @@
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "removeComments": true,
-        "noImplicitAny": true,
-        "outDir": "../release/"
+        "noImplicitAny": true
     },
     "compileOnSave": true,
     "filesGlob": [
@@ -20,8 +19,7 @@
     ],
     "files": [
         "../types/server.d.ts",
-        "modules/test/test.ts",
-        "service/proxy.ts"
+        "service/log.ts"
     ],
     "atom": {
         "rewriteTsconfig": true

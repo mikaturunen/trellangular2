@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "Proxy service",
   "main": "service/proxy.js",
-  "scripts": {},
+  "scripts": {
+  },
   "repository": {
     "type": "git",
     "url": "git+ssh://git@github.com/mikaturunen/trellangular2.git"
@@ -21,6 +22,7 @@
   "dependencies": {
     "babel-polyfill": "^6.3.14",
     "babel-register": "^6.4.3",
+    "express": "^4.13.4",
     "seneca": "^1.0.0"
   }
 }

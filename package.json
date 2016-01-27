@@ -25,7 +25,8 @@
   "homepage": "https://github.com/mikaturunen/trellangular2#readme",
   "scripts": {
       "npm-proxy": "cd proxy-service && npm install && cd ..",
-      "install-dependencies": "npm run npm-proxy",
+      "npm-log": "cd log-service && npm install && cd ..",
+      "install-dependencies": "npm run npm-proxy && npm run npm-log",
       "postinstall": "npm run install-dependencies"
   }
 }

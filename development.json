@@ -6,7 +6,17 @@
         "name"        : "ProxyService",
         "script"      : "proxy.js",
         "watch"       : true,
-        "cwd"         : "./release/proxy-service/service/",
+        "cwd"         : "./proxy-service/service/",
+        "env": {
+            "NODE_ENV": "development",
+            "AWESOME_SERVICE_API_TOKEN": "xxx"
+        }
+    },
+    {
+        "name"        : "LogService",
+        "script"      : "log.js",
+        "watch"       : true,
+        "cwd"         : "./log-service/service/",
         "env": {
             "NODE_ENV": "development",
             "AWESOME_SERVICE_API_TOKEN": "xxx"
