@@ -1,4 +1,7 @@
 {
+    "NOTE": "If you want to use this file, you need to run 'npm install -g pm2' and then 'pm2 start development.json'.",
+
+
     "apps" : [{
         "name"        : "ProxyService",
         "script"      : "proxy.js",
