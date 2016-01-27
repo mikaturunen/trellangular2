@@ -1,0 +1,31 @@
+{
+  "name": "trellangular2",
+  "version": "1.0.0",
+  "description": "Trello look a like built in Angular 2 - Technical evalutation purposes",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mikaturunen/trellangular2.git"
+  },
+  "keywords": [
+    "Trello",
+    "Angular2",
+    "evaluation"
+  ],
+  "author": "Mika Turunen <mika.turunen@ymail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikaturunen/trellangular2/issues"
+  },
+  "homepage": "https://github.com/mikaturunen/trellangular2#readme",
+  "scripts": {
+      "npm-proxy": "cd proxy-service && npm install && cd ..",
+      "install-dependencies": "npm run npm-proxy",
+      "postinstall": "npm run install-dependencies"
+  }
+}
