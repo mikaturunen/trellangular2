@@ -1,4 +1,6 @@
 "use strict";
+require("babel-polyfill");
+require("babel-register");
 class Log {
     constructor() {
     }

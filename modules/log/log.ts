@@ -1,23 +1,26 @@
 "use strict";
 
+import "babel-polyfill";
+import "babel-register";
+
 export class Log {
     constructor() {
-        // TODO Create logger instance on specific log output
+        // TODO Create logger instance on specific log output, currently just dishing to console.log
     }
 
-    info(message: string) {
+    public info(message: string) {
         console.log(message);
     }
 
-    debug(message: string) {
+    public debug(message: string) {
         console.log(message);
     }
 
-    warning(message: string) {
+    public warning(message: string) {
         console.log(message);
     }
 
-    error(message: string) {
+    public error(message: string) {
         console.log(message);
     }
 };

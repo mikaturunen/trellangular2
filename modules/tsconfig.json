@@ -1,16 +1,29 @@
 {
-  "compilerOptions": {
-    "target": "ES6",
-    "sourceMap": false,
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
-    "removeComments": true,
-    "noImplicitAny": true,
-    "moduleResolution": "node"
-  },
-  "exclude": [
-    "node_modules",
-    "release",
-    ".git"
-  ]
+    "compilerOptions": {
+        "target": "ES6",
+        "sourceMap": false,
+        "emitDecoratorMetadata": true,
+        "experimentalDecorators": true,
+        "removeComments": true,
+        "noImplicitAny": true,
+        "outDir": "../release/"
+    },
+    "compileOnSave": true,
+    "filesGlob": [
+        "../types/server.d.ts",
+        "**/*.ts"
+    ],
+    "exclude": [
+        "node_modules",
+        "release",
+        ".git"
+    ],
+    "files": [
+        "../types/server.d.ts",
+        "modules/test/test.ts",
+        "service/proxy.ts"
+    ],
+    "atom": {
+        "rewriteTsconfig": true
+    }
 }
