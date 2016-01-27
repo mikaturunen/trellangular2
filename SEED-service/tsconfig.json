@@ -20,7 +20,6 @@
     ],
     "files": [
         "../types/server.d.ts",
-        "modules/test/test.ts",
         "service/proxy.ts"
     ],
     "atom": {
