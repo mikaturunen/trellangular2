@@ -19,7 +19,6 @@
     ],
     "files": [
         "../types/server.d.ts",
-        "modules/log/log.ts",
         "service/proxy.ts"
     ],
     "atom": {
