@@ -9,7 +9,7 @@
     },
     "compileOnSave": true,
     "filesGlob": [
-        "../types/server.d.ts",
+        "../../types/server.d.ts",
         "**/*.ts"
     ],
     "exclude": [
@@ -18,8 +18,8 @@
         ".git"
     ],
     "files": [
-        "../types/server.d.ts",
-        "service/log.ts"
+        "../../types/server.d.ts",
+        "test.ts"
     ],
     "atom": {
         "rewriteTsconfig": true

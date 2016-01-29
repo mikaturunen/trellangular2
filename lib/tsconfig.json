@@ -19,7 +19,7 @@
     ],
     "files": [
         "../types/server.d.ts",
-        "service/SEED.ts"
+        "log.ts"
     ],
     "atom": {
         "rewriteTsconfig": true

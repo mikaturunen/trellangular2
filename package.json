@@ -3,10 +3,14 @@
   "version": "1.0.0",
   "description": "Trello look a like built in Angular 2 - Technical evalutation purposes",
   "main": "index.js",
-  "dependencies": {},
+  "dependencies": {
+    "seneca": "^1.0.0"
+  },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "npm-proxy": "cd proxy-service && npm install && cd ..",
+    "npm-log": "cd log-service && npm install && cd ..",
+    "install-dependencies": "npm run npm-proxy && npm run npm-log"
   },
   "repository": {
     "type": "git",
@@ -22,11 +26,5 @@
   "bugs": {
     "url": "https://github.com/mikaturunen/trellangular2/issues"
   },
-  "homepage": "https://github.com/mikaturunen/trellangular2#readme",
-  "scripts": {
-      "npm-proxy": "cd proxy-service && npm install && cd ..",
-      "npm-log": "cd log-service && npm install && cd ..",
-      "install-dependencies": "npm run npm-proxy && npm run npm-log",
-      "postinstall": "npm run install-dependencies"
-  }
+  "homepage": "https://github.com/mikaturunen/trellangular2#readme"
 }
