@@ -53,7 +53,7 @@
             ],
             "quotemark": [true, "double", "avoid-escape"],
             "radix": true,
-            "semicolon": true,
+            "semicolon": false,
             "triple-equals": [true, "allow-null-check"],
             "typedef-whitespace": [
                 true, {

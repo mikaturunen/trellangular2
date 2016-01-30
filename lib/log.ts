@@ -1,6 +1,7 @@
 "use strict";
 
 // Have to use 'function' syntax instead of fat arrow to make sure the this behavior is retained
+// due to the way seneca is wired.
 
 module.exports = function(options: any) {
     "use strict";

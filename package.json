@@ -4,6 +4,8 @@
   "description": "Trello look a like built in Angular 2 - Technical evalutation purposes",
   "main": "index.js",
   "dependencies": {
+    "express": "^4.13.4",
+    "q": "^1.4.1",
     "seneca": "^1.0.0"
   },
   "devDependencies": {},
