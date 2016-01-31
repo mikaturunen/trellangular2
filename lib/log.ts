@@ -12,14 +12,14 @@ module.exports = function(options: any) {
     [{
         cmd: "error",
         callback: (args: any, done: (error: Error, object: Object) => void) => {
-            console.log(args.message);
+            console.log("log:", args.message);
             done(null, { status: "OK" });
         }
     },
     {
         cmd: "info",
         callback: (args: any, done: (error: Error, object: Object) => void) => {
-            console.log(args.message);
+            console.log("log:", args.message);
             done(null, { status: "OK" });
         }
     }]
