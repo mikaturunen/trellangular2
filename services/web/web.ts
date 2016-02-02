@@ -3,7 +3,6 @@
 import * as express     from "express";
 import * as path        from "path";
 import * as parser      from "body-parser";
-// import * as staticServe      from "serve-static";
 
 const seneca: any = require("seneca")();
 const configuration: any = require("../../config.json");
